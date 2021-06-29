@@ -1,4 +1,4 @@
-## Bernie Graves
+
 ### [Link to My LinkedIn](https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit)
 ![Picture of me](/images/me.png)
 
