@@ -1,3 +1,3 @@
-# bernie-graves.github.io
+# Hello
 
 Hello this is the repository for my personal website!
