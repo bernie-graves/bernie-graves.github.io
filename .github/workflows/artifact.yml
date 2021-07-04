@@ -3,12 +3,10 @@ on:
   push:
     branches: [ main ]
 jobs:
-  upload:
-    name: upload artifact
-    runs-on: ubuntu-latest
-    steps:
-    - name: upload
-      uses: actions/upload-artifact@v2
-      with:
-        name: my-artifact
-        path: ./index.md # or path/to/artifact
+  - name: Download a Build Artifact
+    uses: actions/download-artifact@v2.0.10
+    with:
+      # Artifact name
+      name: # optional
+      # Destination path
+      path: # optional
