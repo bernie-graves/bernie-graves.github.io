@@ -1,0 +1,14 @@
+name: Upload artifact
+on:
+  commit:
+    branches: [ main ]
+jobs:
+  upload:
+    name: upload artifact
+    runs-on: ubuntu-latest
+    steps:
+    - name: upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: path/to/artifact/ # or path/to/artifact
