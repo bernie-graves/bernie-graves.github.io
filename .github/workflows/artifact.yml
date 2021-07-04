@@ -3,10 +3,16 @@ on:
   push:
     branches: [ main ]
 jobs:
-  - name: Download a Build Artifact
-    uses: actions/download-artifact@v2.0.10
-    with:
-      # Artifact name
-      name: # optional
-      # Destination path
-      path: # optional
+  spelling:
+    name: Spell checking
+    runs-on: ubuntu-latest
+    steps:
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.4
+      with:
+        # Artifact name
+        name: Upload # optional, default is artifact
+        # A file, directory or wildcard pattern that describes what to upload
+        path: 
+
+
