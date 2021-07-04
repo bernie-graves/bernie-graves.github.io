@@ -11,4 +11,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: my-artifact
-        path: https://github.com/bernie-graves/bernie-graves.github.io.git # or path/to/artifact
+        path: index.md # or path/to/artifact
