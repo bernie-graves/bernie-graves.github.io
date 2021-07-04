@@ -1,6 +1,6 @@
 name: Upload artifact
 on:
-  commit:
+  push:
     branches: [ main ]
 jobs:
   upload:
